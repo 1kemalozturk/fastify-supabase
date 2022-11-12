@@ -6,7 +6,7 @@
 
 Install the package with:
 ```sh
-npm i @1kemalozturk/fastify-supabase --save
+npm i 1kemalozturk/fastify-supabase --save
 ```
 
 
