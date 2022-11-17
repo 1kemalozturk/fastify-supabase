@@ -42,11 +42,11 @@
   "devDependencies": {
     "coveralls": "^3.1.1",
     "dotenv": "^16.0.3",
-    "fastify": "^4.9.2",
+    "fastify": "^4.10.0",
     "standard": "^17.0.0",
-    "tap": "^16.3.0",
+    "tap": "^16.3.2",
     "tsd": "^0.24.1",
-    "typescript": "^4.8.4"
+    "typescript": "^4.9.3"
   },
   "tsd": {
     "directory": "test/types"
