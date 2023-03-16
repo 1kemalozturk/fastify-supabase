@@ -1,6 +1,6 @@
 {
   "name": "@1kemalozturk/fastify-supabase",
-  "version": "2.10.0",
+  "version": "2.11.0",
   "description": "Supabase client initialization and encapsulation in fastify framework",
   "main": "plugin.js",
   "types": "plugin.d.ts",
@@ -36,7 +36,7 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.10.0",
+    "@supabase/supabase-js": "^2.11.0",
     "fastify-plugin": "^4.5.0"
   },
   "devDependencies": {
