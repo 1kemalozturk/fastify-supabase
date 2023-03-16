@@ -97,6 +97,13 @@ fastify.listen(3000, (err) => {
 
 * `realtime` **[ optional ]** `<RealtimeClientOptions>`: Options passed to the realtime-js instance.
 
+```js
+// Realtime v2
+supabase.one.channel('*').on('postgres_changes', { event: '*', schema: '*' }, payload => {
+ console.log('Change received!', payload)
+}).subscribe()
+```
+
 *__Note for TypeScript users__: If you are a TypeScript user, take a look at [Supabase Generating Types documentation](https://supabase.io/docs/reference/javascript/generating-types).*
 
 ## Documentation
