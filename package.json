@@ -1,6 +1,6 @@
 {
   "name": "@1kemalozturk/fastify-supabase",
-  "version": "2.24.0",
+  "version": "2.45.1",
   "description": "Supabase client initialization and encapsulation in fastify framework",
   "main": "plugin.js",
   "types": "plugin.d.ts",
@@ -36,17 +36,17 @@
     "node": ">=14"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.24.0",
-    "fastify-plugin": "^4.5.0"
+    "@supabase/supabase-js": "^2.45.1",
+    "fastify-plugin": "^4.5.1"
   },
   "devDependencies": {
     "coveralls": "^3.1.1",
-    "dotenv": "^16.0.3",
-    "fastify": "^4.17.0",
-    "standard": "^17.0.0",
-    "tap": "^16.3.4",
-    "tsd": "^0.28.1",
-    "typescript": "^5.0.4"
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "standard": "^17.1.0",
+    "tap": "^21.0.1",
+    "tsd": "^0.31.1",
+    "typescript": "^5.5.4"
   },
   "tsd": {
     "directory": "test/types"
